@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 2, 2015, 6:31:18 PM
+    Author     : CJH
+*/
+
+@font-face {
+    font-family: 'verdana';
+    src: url('verdana.ttf');
+}
+
+@font-face {
+    font-family: 'verdana-bold';
+    src: url('verdanab.ttf');
+}
+
+body {
+    font-family: 'verdana';
+    font-size: 14.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'verdana-bold';
+}
+h1 {
+    text-align: center;
+}
+
+a.address {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 30px;
+    line-height: 23px;
+}
+ul li {
+    margin-bottom: 4px;
+}
+
+p, div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+p, div {
+    line-height: 27px;
+}
